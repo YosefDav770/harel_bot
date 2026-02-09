@@ -1,7 +1,7 @@
 import requests
 
-ID_INSTANCE = "7103509026"
-API_TOKEN = "f3287939491e4f0abc8e2deca49b6a5e86e16f6095c14b74a8"
+ID_INSTANCE = "7103509946"
+API_TOKEN = "16176ae214c442d2b8a14fbf5ad5f1503bc7d30cb0be416e88"
 
 def send_message(phone, text):
     url = f"https://api.green-api.com/waInstance{ID_INSTANCE}/sendMessage/{API_TOKEN}"
@@ -13,6 +13,7 @@ def send_message(phone, text):
 if __name__ == "__main__":
     print("Bot is running!")
     send_message("972509902586", "Hello! The bot is working!")
+
 
 
 
