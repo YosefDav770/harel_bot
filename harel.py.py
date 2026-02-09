@@ -8,5 +8,8 @@ def send_message(phone, text):
     payload = {"chatId": f"{phone}@c.us", "message": text}
     requests.post(url, json=payload)
 
+
+
 if __name__ == "__main__":
     print("Bot is running!")
+    send_message("972509902568", "Hello! The bot is working!")
