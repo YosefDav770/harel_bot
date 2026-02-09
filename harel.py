@@ -12,7 +12,8 @@ def send_message(phone, text):
 
 if __name__ == "__main__":
     print("Bot is running!")
-    send_message("972509902568@c.us", "Hello! The bot is working!")
+    send_message("972509902586@c.us", "Hello! The bot is working!")
+
 
 
 
